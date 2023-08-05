@@ -20,6 +20,8 @@ final class Analyzer: NSObject, ObservableObject {
 
     @Published private(set) var confidenceResult: ConfidenceResult = ConfidenceResult(r2d2: 0, lightsaber: 0, everythingElse: 0)
 
+    @Published private(set) var isAnalyzing = false
+
     private enum AnalyzerError: Error {
         case noMicrophoneAccess
     }
@@ -27,6 +29,17 @@ final class Analyzer: NSObject, ObservableObject {
     private var audioEngine: AVAudioEngine?
     private var streamAnalyzer: SNAudioStreamAnalyzer?
     private let analysisQueue = DispatchQueue.global()
+
+    func toggleAnalyzing() {
+        if !isAnalyzing {
+            if start() {
+                isAnalyzing = true
+            }
+        } else {
+            stop()
+            isAnalyzing = false
+        }
+    }
 
     func start() -> Bool {
         do {
