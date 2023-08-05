@@ -11,6 +11,8 @@
 		D1A090462A7DED06008AC546 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A090452A7DED06008AC546 /* ContentView.swift */; };
 		D1A090482A7DED07008AC546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A090472A7DED07008AC546 /* Assets.xcassets */; };
 		D1A0904B2A7DED07008AC546 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A0904A2A7DED07008AC546 /* Preview Assets.xcassets */; };
+		D1A090522A7E7654008AC546 /* StarWarsSoundClassifier_v1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D1A090512A7E7654008AC546 /* StarWarsSoundClassifier_v1.mlmodel */; };
+		D1A090542A7E76E5008AC546 /* Analyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A090532A7E76E5008AC546 /* Analyzer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D1A090452A7DED06008AC546 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D1A090472A7DED07008AC546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1A0904A2A7DED07008AC546 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D1A090512A7E7654008AC546 /* StarWarsSoundClassifier_v1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = StarWarsSoundClassifier_v1.mlmodel; sourceTree = "<group>"; };
+		D1A090532A7E76E5008AC546 /* Analyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analyzer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			children = (
 				D1A090432A7DED06008AC546 /* Star_Wars_Sound_ClassifierApp.swift */,
 				D1A090452A7DED06008AC546 /* ContentView.swift */,
+				D1A090532A7E76E5008AC546 /* Analyzer.swift */,
 				D1A090472A7DED07008AC546 /* Assets.xcassets */,
+				D1A090512A7E7654008AC546 /* StarWarsSoundClassifier_v1.mlmodel */,
 				D1A090492A7DED07008AC546 /* Preview Content */,
 			);
 			path = "Star Wars Sound Classifier";
@@ -139,6 +145,8 @@
 			files = (
 				D1A090462A7DED06008AC546 /* ContentView.swift in Sources */,
 				D1A090442A7DED06008AC546 /* Star_Wars_Sound_ClassifierApp.swift in Sources */,
+				D1A090522A7E7654008AC546 /* StarWarsSoundClassifier_v1.mlmodel in Sources */,
+				D1A090542A7E76E5008AC546 /* Analyzer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,11 +282,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Star Wars Sound Classifier/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To listen to your favorite Star Wars movie";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,11 +312,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Star Wars Sound Classifier/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To listen to your favorite Star Wars movie";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
