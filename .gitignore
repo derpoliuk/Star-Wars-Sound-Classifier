@@ -1,0 +1,45 @@
+.last_nib_generation_time.txt
+
+.DS_Store
+*.swp
+*~.nib
+
+# derived data
+*.pbxuser
+*.perspective
+*.perspectivev3
+
+# user specific XCode data
+xcuserdata
+
+
+# don't track generated localized nibs
+*.lproj/*.xib
+# but do track the master language
+!en.lproj/*.xib
+.idea
+
+# Fastlane artefacts
+fastlane/report.xml
+fastlane/Appfile
+
+*.generated.swift
+
+## User settings
+xcuserdata/
+
+## Build generated
+build/
+DerivedData/
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
