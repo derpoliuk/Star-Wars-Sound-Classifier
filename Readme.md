@@ -18,9 +18,7 @@ To run the app:
 
 After the app is launched, start your favorite Star Wars movie, tap on the Play button, and observe the results:
 
-<img width="200" src="https://github.com/derpoliuk/Star-Wars-Sound-Classifier/assets/1434418/c22b5324-b892-422c-abcc-ce10c9e8f1f3">
-<img width="200" src="https://github.com/derpoliuk/Star-Wars-Sound-Classifier/assets/1434418/4ab0231e-be75-45ea-8984-0a1b2cf07da4">
-<img width="200" src="https://github.com/derpoliuk/Star-Wars-Sound-Classifier/assets/1434418/ed07adfa-bd94-4045-92e7-098e32d7b5e8">
+<img width="200" alt="Home screen" src="https://github.com/derpoliuk/Star-Wars-Sound-Classifier/assets/1434418/bd03b9a4-c521-4378-9511-09a6d99723ea"><img width="200" alt="Lightsaber" src="https://github.com/derpoliuk/Star-Wars-Sound-Classifier/assets/1434418/9dc223bf-9b37-4594-b5de-cace02aea2b1"><img width="200" alt="R2D2" src="https://github.com/derpoliuk/Star-Wars-Sound-Classifier/assets/1434418/9854b9b9-26ac-4581-a812-b3619bd2279e">
 
 ## Create ML
 
@@ -30,7 +28,7 @@ The Core ML model was trained in the Create ML (`Version 5.0 Beta (119)`) using 
 
 Sounds were grouped into 3 folders:
 
-<img width="488" alt="Screenshot 2023-08-05 at 11 38 12 AM" src="https://github.com/derpoliuk/Star-Wars-Sound-Classifier/assets/1434418/f4b891e5-2522-4ecb-bbd9-4d5cd17aea03">
+<img width="488" alt="Screenshot 2023-08-05 at 11 38 12 AM" src="https://github.com/derpoliuk/Star-Wars-Sound-Classifier/assets/1434418/0c179163-06ee-4ac4-a28a-0900e8bc70eb">
 
 We need to provide a variety of different sounds other ones we want to classify (lightsaber and R2D2) to properly train the model.
 
@@ -38,7 +36,7 @@ We need to provide a variety of different sounds other ones we want to classify 
 
 The training was performed with default settings:
 
-<img width="1512" alt="Screenshot 2023-08-05 at 11 36 50 AM" src="https://github.com/derpoliuk/Star-Wars-Sound-Classifier/assets/1434418/356514f6-b106-4a9f-8253-01278a0b430a">
+<img width="1512" alt="Screenshot 2023-08-05 at 11 36 50 AM" src="https://github.com/derpoliuk/Star-Wars-Sound-Classifier/assets/1434418/512cbf17-e12c-4353-9734-81a18a6e7ba2">
 
 ## What's left outside of the scope
 
